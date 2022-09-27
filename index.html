@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku-Game-B4m97</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
 
+    <h1>Sudoku</h1>
+    <hr/>
+    <div>
+        <span id="hr">00</span>
+        <span>:</span>
+        <span id="min">00</span>
+        <span>:</span>
+        <span id="sec">00</span>
+    </div>
+    <h2 id="errors">0</h2>
+    <div id="main">
+        <div id="part1">
+            <!-- 9x9 boards -->
+            <div id="board"></div>
+        </div>
+    
+        <br/>
+        <div id="part2">
+            
+            <div id="btn">
+                <div id="digits" ></div>
+                <button id="start" onclick="startGame()">Start</button>
+                <button id="pause" onclick="pauseGame()">Pause</button>
+                <button id="restart" onclick="resetGame()">Restart</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="App.js"></script>
+</body>
+</html>
